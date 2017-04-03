@@ -199,7 +199,7 @@ function vasttrafikApp() {
         var d = new Date();
         var time = String(d.getHours()) + "%3A" + String(d.getMinutes());
         var date = String(d.getFullYear()) + "-" + String(d.getMonth() + 1) + "-" + String(d.getDate());
-        var stop_id = "9021014001960000"; // vasttrafiks ID of Chalmers stop
+        var stop_id = "9021014001050000"; // vasttrafiks ID of almedal stop
         var timespan = "30"; // minutes
         $.ajax({
             type: "GET",
