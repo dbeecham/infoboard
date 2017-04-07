@@ -263,7 +263,7 @@ weatherApp = function() {
 
     function updateWeather(note) {
         $.simpleWeather({
-            location: '57.687747, 11.978457',
+            location: '57.687278, 11.999247',
             unit: 'c',
             success: function (weather) {
                 updateNote(note, weather.temp, weather.units.temp);
@@ -277,7 +277,7 @@ weatherApp = function() {
     }
 
     $.simpleWeather({
-        location: '57.687747, 11.978457',
+        location: '57.687278, 11.999247',
         unit: 'c',
         success: function (weather) {
             createNote(weather.temp, weather.units.temp);
